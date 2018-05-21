@@ -110,7 +110,9 @@ public class ClientUI extends Application {
 
             if (nicknames.contains(chatNickname)) {
 
-                System.out.println("MeSAJ PE ALT CHAT");
+                /**
+                 *  notify of new message
+                 */
             }
         }
     }

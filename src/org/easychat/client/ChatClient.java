@@ -38,7 +38,6 @@ public final class ChatClient implements ClientOperations, Subject {
     private final Chat publicChat;
     private final SortedMap<String, PrivateChat> privateChats = new TreeMap<>(String::compareToIgnoreCase);
     private Chat currentChat = null;
-    private boolean isRunning = true;
 
     /** client synchronization for privateChats **/
     private final ReadWriteLock clientLock = new ReentrantReadWriteLock();
@@ -105,7 +104,6 @@ public final class ChatClient implements ClientOperations, Subject {
 
     private void stopConnection() {
 
-        isRunning = false;
         try {
 
             if (outputStream != null)

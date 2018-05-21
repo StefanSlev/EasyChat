@@ -3,7 +3,7 @@ package org.easychat.client;
 /**
  * Created by Slevy on 07.05.2018.
  */
-public enum ClientExceptionType {
+enum ClientExceptionType {
 
     CLIENT_EXISTS {
 

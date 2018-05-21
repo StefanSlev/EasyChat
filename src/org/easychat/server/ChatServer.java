@@ -204,22 +204,6 @@ final public class ChatServer implements ServerOperations {
         }
     }
 
-    /**
-     *
-     *  --- Server Operations ---
-     *  removeClient
-     *  addClient
-     *  getMailbox
-     *  broadcast
-     *  sendTo
-     *
-     *  --- Server Remote Operations ---
-     *  isNicknameAvailable
-     *  getAllNicknames
-     *  userExists -- ce se intampla daca trimit mesaj unuia care nu exista
-     *
-     */
-
     public static void main(String[] args) throws InterruptedException {
 
         ChatServer chatServer = ChatServer.getInstance();

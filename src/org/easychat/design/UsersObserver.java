@@ -4,8 +4,6 @@ import javafx.application.Platform;
 import org.easychat.ui.ClientUI;
 
 import java.util.List;
-import java.util.concurrent.ThreadFactory;
-
 /**
  * Created by Slevy on 17.05.2018.
  */
